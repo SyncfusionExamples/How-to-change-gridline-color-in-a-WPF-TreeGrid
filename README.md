@@ -1,6 +1,6 @@
 # How to change gridline color in a WPF TreeGrid
 
-In [WPF SfTreeGrid](https://www.syncfusion.com/wpf-controls/treegrid), the grid line color can be customized by setting the BorderBrush property for the [TreeGridCell](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridCell.html), [TreeGridHeaderCell](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridHeaderCell.html), [TreeGridExpanderCell](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridExpanderCell.html), and the SfTreeGrid.
+In [WPF SfTreeGrid](https://www.syncfusion.com/wpf-controls/treegrid) provides an option to customize the grid line color. By default, the grid line color is gray. However, you can change it by setting the BorderBrush property  for the [TreeGridCell](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridCell.html), [TreeGridHeaderCell](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridHeaderCell.html), [TreeGridExpanderCell](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridExpanderCell.html), and the SfTreeGrid.
 
  ```xml
 <Window.Resources>
