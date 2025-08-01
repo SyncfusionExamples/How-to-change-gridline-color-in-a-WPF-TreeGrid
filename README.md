@@ -29,6 +29,6 @@ In [WPF TreeGrid](https://www.syncfusion.com/wpf-controls/treegrid) (SfTreeGrid)
     </syncfusion:SfTreeGrid>
 </Grid> 
  ```
- ![ChangingGridLineColor.png](ChangingGridLineColor.png)
+ ![Changing the GridLine Color](ChangingGridLineColor.png)
 
 Take a moment to peruse the [WPF TreeGrid - GridLines](https://help.syncfusion.com/wpf/treegrid/gridlines) documentation, to learn more about TreeGrid GridLines customization with examples.
