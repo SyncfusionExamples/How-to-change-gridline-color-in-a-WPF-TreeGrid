@@ -10,6 +10,7 @@
     <Window.DataContext>
         <local:ViewModel />
     </Window.DataContext>
+    
     <Window.Resources>
         <!--To change the grid line color for the TreeGridCell-->
         <Style TargetType="syncfusion:TreeGridCell">
@@ -31,6 +32,7 @@
         <syncfusion:SfTreeGrid Name="treeGrid" 
                                Margin="2"
                                BorderBrush="Green"
+                               AllowResizingColumns="True"
                                ChildPropertyName="ReportsTo"
                                ItemsSource="{Binding Employees}"
                                ParentPropertyName="ID"

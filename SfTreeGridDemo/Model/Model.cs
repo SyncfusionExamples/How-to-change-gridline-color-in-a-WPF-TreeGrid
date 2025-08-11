@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace SfTreeGridDemo
 {
@@ -17,13 +18,7 @@ namespace SfTreeGridDemo
         private double? _salary;
         private int _reportsTo;
 
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
+        [Display(Name = "ID")]
         public int ID
         {
             get => _id;
@@ -37,6 +32,7 @@ namespace SfTreeGridDemo
             }
         }
 
+        [Display(Name = "First Name")]
         public string FirstName
         {
             get => _firstName;
@@ -50,6 +46,7 @@ namespace SfTreeGridDemo
             }
         }
 
+        [Display(Name = "Last Name")]
         public string LastName
         {
             get => _lastName;
@@ -63,6 +60,7 @@ namespace SfTreeGridDemo
             }
         }
 
+        [Display(Name = "Title")]
         public string Title
         {
             get => _title;
@@ -76,6 +74,7 @@ namespace SfTreeGridDemo
             }
         }
 
+        [Display(Name = "Salary")]
         public double? Salary
         {
             get => _salary;
@@ -89,6 +88,7 @@ namespace SfTreeGridDemo
             }
         }
 
+        [Display(Name = "Reports To")]
         public int ReportsTo
         {
             get => _reportsTo;
@@ -100,6 +100,18 @@ namespace SfTreeGridDemo
                     OnPropertyChanged(nameof(ReportsTo));
                 }
             }
+        }
+
+        public EmployeeInfo()
+        {
+
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

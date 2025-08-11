@@ -35,11 +35,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Syncfusion.Data.WPF" />
-    <Reference Include="Syncfusion.Licensing" />
-    <Reference Include="Syncfusion.SfGrid.WPF" />
-    <Reference Include="Syncfusion.Shared.WPF" />
+    <Reference Include="Syncfusion.Data.WPF"/>
+    <Reference Include="Syncfusion.Licensing"/>
+    <Reference Include="Syncfusion.SfGrid.WPF"/>
+    <Reference Include="Syncfusion.Shared.WPF"/>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -92,7 +93,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

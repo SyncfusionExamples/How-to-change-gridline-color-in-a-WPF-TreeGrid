@@ -9,11 +9,6 @@ namespace SfTreeGridDemo
 {
     public class ViewModel
     {
-
-        public ViewModel()
-        {
-            this.Employees = this.GetEmployees();
-        }
         private ObservableCollection<EmployeeInfo> _employees;
 
         public ObservableCollection<EmployeeInfo> Employees
@@ -22,6 +17,11 @@ namespace SfTreeGridDemo
             set { _employees = value; }
         }
 
+        public ViewModel()
+        {
+            this.Employees = this.GetEmployees();
+        }
+       
         private ObservableCollection<EmployeeInfo> GetEmployees()
         {
             ObservableCollection<EmployeeInfo> employeeDetails = new ObservableCollection<EmployeeInfo>();
